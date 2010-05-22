@@ -15,6 +15,7 @@ requires 2.0.0
 %}
 
 %headertop{
+#include <libusb.h>
 #include "usbcommon.h"
 #include "rgi-stateparam.h"
 #include <glib.h>
